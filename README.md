@@ -17,3 +17,8 @@ Hasil pengeksekusian kode otomatis akan tersimpan di dalam folder `output/` yang
 * **Untuk NLP Modul**: File `master_vak_nlp.csv` (data teks bersih untuk rekomendasi modul).
 
 *Catatan: Dikarenakan ukuran file output (*.csv) cukup besar, folder `output/` disembunyikan lewat `.gitignore` dan berkas fisik data hasil pemrosesan dibagikan antar-tim*
+
+## 📊 Dashboard, A/B Testing & Deployment
+Bagian visualisasi data dan pembuatan dashboard interaktif untuk proyek ini dikembangkan menggunakan **Streamlit** oleh rekan tim saya, [Raissa Nadia](https://eduprofile-ai-capstone.streamlit.app/).
+
+* **Repository Dashboard:** [RaissaNadia/EduProfile](https://github.com/RaissaNadia/EduProfile-AI)
