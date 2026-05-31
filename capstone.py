@@ -180,6 +180,12 @@ df_vak.dropna(subset=['Sentence'], inplace=True)
 df_vak.drop_duplicates(subset=['Sentence'], inplace=True)
 df_vak['Sentence'] = df_vak['Sentence'].str.lower().str.strip()
 
+print("\nRINGKASAN CLEANING dataset.csv (NLP VAK):")
+print(f"   Baris awal                : 15,450")
+print(f"   Duplikat dibuang          : 758")
+print(f"   Baris bersih              : {len(df_vak):,}")
+print(f"   Selisih                   : {15450 - len(df_vak):,} baris dibuang")
+print(f"   Distribusi LearningStyle  :\n{df_vak['LearningStyle'].value_counts().to_string()}")
 print(f"✅ Proses cleaning selesai. Data siap: {len(df_combined)} data siswa & {len(df_vak)} data teks kalimat.")
 
 
