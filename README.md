@@ -4,6 +4,7 @@
 * `capstone.py`: Skrip utama untuk memuat 3 dataset, prapemrosesan, integrasi data, *clustering* ritme belajar (K-Means), dan ekspor data latih model AI.
 * `capstone_EDA.py`: Skrip analisis data untuk menghasilkan grafik distribusi, visualisasi indikator VAK, dan analisis korelasi fitur.
 * `.gitignore`: Menyaring folder dataset agar penyimpanan repositori tetap optimal.
+* `data_assessment` : Hasil output dari capstone_EDA.py
 
 ## Sumber Dataset
 1. Student Education Dataset
